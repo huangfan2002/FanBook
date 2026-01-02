@@ -1,0 +1,4 @@
+com\fan\fanbook\auth\demos\web\User.class
+com\fan\fanbook\auth\FanBookAuthApplication.class
+com\fan\fanbook\auth\demos\web\PathVariableController.class
+com\fan\fanbook\auth\demos\web\BasicController.class

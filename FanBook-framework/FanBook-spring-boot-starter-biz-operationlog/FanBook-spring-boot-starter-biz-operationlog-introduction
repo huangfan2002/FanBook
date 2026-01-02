@@ -1,0 +1,9 @@
+举个栗子，当你想要使用 Spring Boot 开发一个 Web 应用时，只需要引入 spring-boot-starter-web Starter。这个 Starter 包含了一系列依赖项和配置，使得开发 Web 应用变得更加简单。
+
+具体来说，引入 spring-boot-starter-web Starter 后，你可以享受到以下好处：
+
+内嵌的 Web 服务器支持：Spring Boot 内置了多种 Web 服务器支持，比如 Tomcat、Jetty、Undertow。spring-boot-starter-web 会自动配置一个默认的 Web 服务器，你无需手动配置即可启动你的应用。
+Spring MVC 框架支持：Spring Boot 基于 Spring MVC 构建了强大的 Web 开发框架，包括了控制器、视图解析器等。引入 spring-boot-starter-web 后，你可以直接使用 Spring MVC 来处理 Web 请求。
+静态资源支持：spring-boot-starter-web Starter 自动配置了对静态资源（如 HTML、CSS、JavaScript 文件）的处理，你可以直接在项目中放置这些文件，Spring Boot 就能够正确地访问它们。
+自动配置：Spring Boot 会根据你的 classpath 自动配置应用程序。比如，如果你引入了 spring-boot-starter-web，Spring Boot 就会自动配置 DispatcherServlet、ViewResolver 等关键组件，从而让你的 Web 应用能够顺利地工作起来。
+简而言之，Spring Boot Starter 是一种方便的方式，让你能够更快、更轻松地开始使用 Spring Boot 框架，并集成各种常用功能和技术。
