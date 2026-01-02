@@ -11,6 +11,6 @@ public @interface ApiOperationLog {
      *
      * @return
      */
-    String description() default "";
+    String description() default "111";
 
 }
