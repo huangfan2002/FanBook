@@ -1,5 +1,6 @@
 package com.fan.fanbook.auth.controller;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
@@ -16,6 +17,7 @@ public class User {
     /**
      * 昵称
      */
+    @NotBlank(message = "昵称不能为空")
     private String nickName;
 
     /**
